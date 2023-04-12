@@ -431,6 +431,7 @@ footer h3 {
 
   .hebergements {
     width: 100%;
+    
   }
 
   .populaires {
@@ -459,5 +460,10 @@ footer h3 {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+.activites {
+width: 100%;
+}
+
   /* ... */
 }
