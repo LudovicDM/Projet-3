@@ -151,7 +151,7 @@ nav {
   justify-content: center;
 }
 
-/****** Filtres and boutton ***********/
+/****** Filter and button ***********/
 
 .filtres {
   display: flex;
@@ -452,7 +452,7 @@ footer h3 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-  /****** Filtres and ul ***********/
+  /****** Filter and button ***********/
 
   .search_filtre {
     align-items: flex-start;
@@ -581,7 +581,7 @@ footer h3 {
     margin-left: -11px;
   }
 
-  /****** Filtres and ul ***********/
+  /****** Filtres and button ***********/
   .filtres h2 {
     margin-top: 35px;
   }
