@@ -34,7 +34,7 @@
         </nav>
       </header>
 
-      <!--Filtres et recherche-->
+      <!--title-->
       <main>
         <section class="title">
           <h1 class="search_title">
@@ -59,17 +59,28 @@
             </button>
           </form>
 
-          <div class="search_filtre">
+          <!--Filtres et recherche-->
+
+          <div class="filtres">
             <h2>Filtres</h2>
-            <ul>
-              <li><i class="fa-solid fa-money-bill-wave"></i> Economique</li>
 
-              <li><i class="fa-solid fa-child"></i> Familial</li>
+            <div class="search_filtre">
+              <button class="buttons">
+                <i class="fa-solid fa-money-bill-wave"></i>Economique
+              </button>
 
-              <li><i class="fa-solid fa-heart"></i> Romantique</li>
+              <button class="buttons">
+                <i class="fa-solid fa-child"></i>Familial
+              </button>
 
-              <li><i class="fa-solid fa-fire"></i> Nos pépites</li>
-            </ul>
+              <button class="buttons">
+                <i class="fa-solid fa-heart"></i>Romantique
+              </button>
+
+              <button class="buttons">
+                <i class="fa-solid fa-fire"></i>Nos pépites
+              </button>
+            </div>
           </div>
 
           <div class="info">
@@ -78,8 +89,8 @@
           </div>
         </section>
 
+        <!--Hebergements -->
         <div class="hebergements-and-populaires">
-          <!--Hebergements -->
           <section class="hebergements" id="hebergements">
             <div class="hebergements-title">
               <h2 class="section-title">Hébergements à Marseille</h2>
@@ -360,48 +371,56 @@
           </div>
           <div class="activites-cards">
             <article class="card">
-              <img
-                src="./images/activites/reno-laithienne.jpg"
-                alt="Photo du vieux port"
-              />
-              <div class="card-content">
-                <div class="card-txt">
-                  <h3 class="card-title">Vieux-Port</h3>
+              <a href="#">
+                <img
+                  src="./images/activites/reno-laithienne.jpg"
+                  alt="Photo du vieux port"
+                />
+                <div class="card-content">
+                  <div class="card-txt">
+                    <h3 class="card-title">Vieux-Port</h3>
+                  </div>
                 </div>
-              </div>
+              </a>
             </article>
             <article class="card">
-              <img
-                src="./images/activites/paul-hermann.jpg"
-                alt="Photo du Fort de Pomègues"
-              />
-              <div class="card-content">
-                <div class="card-txt">
-                  <h3 class="card-title">Fort de Pomègues</h3>
+              <a href="#">
+                <img
+                  src="./images/activites/paul-hermann.jpg"
+                  alt="Photo du Fort de Pomègues"
+                />
+                <div class="card-content">
+                  <div class="card-txt">
+                    <h3 class="card-title">Fort de Pomègues</h3>
+                  </div>
                 </div>
-              </div>
+              </a>
             </article>
             <article class="card">
-              <img
-                src="./images/activites/kilyan-sockalingum.jpg"
-                alt="Photo du Parc national des Calanques"
-              />
-              <div class="card-content">
-                <div class="card-txt">
-                  <h3 class="card-title">Parc national des Calanques</h3>
+              <a href="#">
+                <img
+                  src="./images/activites/kilyan-sockalingum.jpg"
+                  alt="Photo du Parc national des Calanques"
+                />
+                <div class="card-content">
+                  <div class="card-txt">
+                    <h3 class="card-title">Parc national des Calanques</h3>
+                  </div>
                 </div>
-              </div>
+              </a>
             </article>
             <article class="card">
-              <img
-                src="./images/activites/florian-wehde.jpg"
-                alt="Photo du Notre-Dame-de-la-Garde"
-              />
-              <div class="card-content">
-                <div class="card-txt">
-                  <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+              <a href="#">
+                <img
+                  src="./images/activites/florian-wehde.jpg"
+                  alt="Photo du Notre-Dame-de-la-Garde"
+                />
+                <div class="card-content">
+                  <div class="card-txt">
+                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                  </div>
                 </div>
-              </div>
+              </a>
             </article>
           </div>
         </section>
@@ -412,23 +431,31 @@
         <div class="footer_end">
           <h3>À propos</h3>
           <ul>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales</li>
-            <li>Données et confidentialité</li>
+            <li>
+              <a href="#">Fonctionnement du site</a>
+            </li>
+
+            <li>
+              <a href="#">Conditions générales</a>
+            </li>
+
+            <li><a href="#">Données et confidentialité</a></li>
           </ul>
         </div>
         <div class="footer_end">
           <h3>Nos hébergements</h3>
           <ul>
-            <li>Charte qualité</li>
-            <li>Proposer votre hôtel</li>
+            <li><a href="#">Charte qualité</a></li>
+
+            <li><a href="#">Proposer votre hôtel</a></li>
           </ul>
         </div>
         <div class="footer_end">
           <h3>Assistance</h3>
           <ul>
-            <li>Centre d'aide</li>
-            <li>Nous contacter</li>
+            <li><a href="#">Centre d'aide</a></li>
+
+            <li><a href="#">Nous contacter</a></li>
           </ul>
         </div>
       </footer>
