@@ -135,7 +135,7 @@ nav {
 
 .button_search {
   width: 132px;
-  background-color: #0065fc;
+  background-color: var(--main-color);
   color: white;
   font-weight: bold;
   padding: 15px 16px;
@@ -187,7 +187,7 @@ nav {
 }
 
 .search_filtre button:hover {
-  background-color: #deebff;
+  background-color: var(--filter-bg-color);
 }
 
 /****** info bar ***********/
