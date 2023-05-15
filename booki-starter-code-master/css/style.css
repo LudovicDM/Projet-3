@@ -154,25 +154,25 @@ nav {
 
 /****** Filter and button ***********/
 
-.filtres {
+.filters {
   display: flex;
   justify-content: flex-start;
   gap: 15px;
 }
 
-.filtres h2 {
+.filters h2 {
   margin-top: 50px;
   margin-bottom: 0px;
 }
 
-.search_filtre {
+.search_filters {
   display: flex;
   flex-direction: row;
   margin-top: 35px;
   gap: 15px;
 }
 
-.search_filtre button {
+.search_filters button {
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   background-color: white;
@@ -186,7 +186,7 @@ nav {
   font-size: 17px;
 }
 
-.search_filtre button:hover {
+.search_filters button:hover {
   background-color: var(--filter-bg-color);
 }
 
@@ -459,21 +459,21 @@ footer h3 {
 
   /****** Filter and button ***********/
 
-  .search_filtre {
+  .search_filters {
     align-items: flex-start;
     margin-top: 20px;
   }
 
-  .search_filtre button {
+  .search_filters button {
     font-size: 16px;
   }
 
-  .filtres {
+  .filters {
     gap: 0;
     flex-direction: column;
   }
 
-  .filtres h2 {
+  .filters h2 {
     margin-top: 35px;
   }
 
@@ -594,14 +594,14 @@ footer h3 {
   }
 
   /****** Filter and button ***********/
-  .filtres h2 {
+  .filters h2 {
     margin-top: 35px;
   }
-  .search_filtre {
+  .search_filters {
     flex-wrap: wrap;
   }
 
-  .search_filtre button {
+  .search_filters button {
     font-size: 14px;
   }
 
