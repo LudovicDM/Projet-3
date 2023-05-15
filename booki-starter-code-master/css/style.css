@@ -118,7 +118,7 @@ nav {
 }
 
 .search_input {
-  border: solid 1px color var(--main-bg-color);
+  border: solid 1px var(--main-bg-color);
   text-align: center;
   font-size: 18px;
   font-weight: 700;
